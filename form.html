@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form </title>
+</head>
+<body style="color: aqua; background-color: rgb(53, 133, 46);">
+    <CEnter><H1><u> Login Form</u></H1></CEnter>
+    <hr>
+    <form action="self" >
+        <fieldset>
+        <fieldset>
+            <legend>User Details</legend>
+        <label for="user">Username :</label>
+        <input type="text" required id="user" name="Usename" placeholder="user name input"> <br> <br>
+       <label for="pass"> Pasword :</label>
+        <input type="password"  required id="pass"><br><br>
+       <label for="city">City of <br> Employee :</label>
+        <input type="text" required id="city" name="City"><br><br></fieldset><br>
+       
+        <label for="wab">Server :</label>
+        <select name="wabsite" id="wab">
+        <optgroup label="India">
+            <option value="mp">Delhi</option>
+            <option value="mp">Mumbai</option>
+        <optgroup label="USA">
+        <option value="usa">Newark</option>
+        <option value="usa">Eugene</option>
+        
+             </optgroup> 
+           
+       </select> <br> <br>
+       
+       Resume : <input type="file"  name="Resume"value="Resume">  <br>
+<br>
+
+       <fieldset>
+       Please specify 
+       your Role : <br> <input type="radio" name="role" required > Admin <br>
+        <input type="radio" name="role" value="Admin"> Enginager <br>
+        <input type="radio" name="role" value="Enginager"> Manager <br>
+        <input type="radio" name="role" value="Guest"> Guest <br></fieldset>
+        <fieldset>
+        <legend> Single Sign- on to the Following </legend> <input type="checkbox"> Mail <br>
+        <input type="checkbox" required> Payroll <br>
+        <input type="checkbox"> Self - service  <br></fieldset><br>
+        <input type="date" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="time"> <br>
+
+        <input style="background-color: blue;" type="submit" value="Login">  &nbsp;<input style="background-color: brown;" type="reset">
+    </fieldset>
+    </form>
+    
+</body>
+</html>
